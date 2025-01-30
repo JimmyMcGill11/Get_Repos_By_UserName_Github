@@ -1,0 +1,37 @@
+body {
+  background-color: #1b1b1e;
+  color: aliceblue;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Josefin Sans", serif;
+}
+
+#data {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  margin: 50px auto;
+}
+
+.box {
+  background-color: #111;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.box h2 {
+  height: 108.8px;
+}
+
+.box p {
+  margin: 10px 0;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  
+}
+
+.btn:focus {
+  transform: scale(.95);
+}
